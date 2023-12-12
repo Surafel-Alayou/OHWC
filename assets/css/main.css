@@ -1223,7 +1223,23 @@ span.visiting-hour{
     justify-content: center;
   }
 }
-
+.card-item {
+  min-height: 200px;
+  background-color: #DDD8D85E;
+  position: relative;
+  border-radius: 0;
+  margin: auto;
+  width: 60%;
+}
+.card-item .card-bg {
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-item .card-body {
+  min-height: 200px;
+  padding: 20px 10px;
+}
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
