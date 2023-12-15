@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #56b8e6;
+  --color-primary: #F4CD18;
   --color-secondary: #1b2f45;
 }
 
@@ -169,11 +169,14 @@ section {
 --------------------------------------------------------------*/
 .header {
   transition: all 0.5s;
-  z-index: 997;
-  padding: 24px 0 30px 0;
-  margin-bottom: 40px;
+  padding: 24px 0;
+  background:  url('../img/background.jpg');
   background-color: #467E39DB;
-  border-radius: 0% 0% 75% 75% / 0% 0% 30% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  border-radius: 0% 0% 95% 95% / 0% 0% 20% 20%;
+  margin-bottom: 60px;
 }
 
 .header .logo img {
@@ -190,9 +193,13 @@ section {
 }
 .header-home{
   transition: all 0.5s;
-  z-index: 997;
   padding: 24px 0;
-  background: #467E39DB;
+  background:  url('../img/background.jpg');
+  background-color: #467E39DB;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  border-radius: 0% 0% 95% 95% / 0% 0% 20% 20%;
 }
 .header-home .logo img {
   max-height: 70px;
@@ -447,7 +454,7 @@ section {
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   background-size: cover;
   position: relative;
   padding: 20px 0 20px 0;
@@ -455,37 +462,8 @@ section {
   border-radius: 0% 0% 95% 95% / 0% 0% 20% 20%;
 }
 
-@media (min-width: 1034px) {
-  .hero:after {
-    position: absolute;
-    content: "";
-    background:#467E39DB;
-    top: 0;
-    bottom: 0;
-  }
-}
-
-.hero:before {
-  position: absolute;
-  content: "";
-  background:#467E39DB;
-  inset: 0;
-}
-
-@media (max-width: 1034px) {
-  .hero:before {
-    background:#467E39DB;
-  }
-}
-
 .hero .container {
   z-index: 1;
-}
-
-@media (min-width: 1365px) {
-  .hero {
-    background-attachment: fixed;
-  }
 }
 
 .hero h2 {
@@ -1716,7 +1694,11 @@ span.visiting-hour{
 
 .footer .footer-content {
   background-color: #467E39DB;
-  background-size: contain;
+  background:  url('../img/background.jpg');
+  background-color: #467E39DB;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
   padding: 60px 0 0 0;
 }
 
