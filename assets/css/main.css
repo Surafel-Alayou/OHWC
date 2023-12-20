@@ -1646,7 +1646,36 @@ span.visiting-hour{
   display: none;
   transition: 0.6s;
 }
+.certficate-container {
+  padding: 100px 30px;
+  width: 100%;
+}
 
+.certficate-container .image-stack {
+  position: relative;
+}
+
+.certficate-container .image-stack__item--bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+  z-index: 9;
+}
+.certficate-container .image-stack__item--bottom img{
+  border-radius: 20px;
+  box-shadow: 0 3px 13px 3px rgba(0, 0, 0, 0.199);
+}
+.certficate-container .image-stack__item--top {
+  width: 100%; 
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.certficate-container img {
+  width: 100%;
+  display: block;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1692,6 +1721,7 @@ span.visiting-hour{
     padding: 10px 0px 10px 40px;
   }
 }
+
 .footer {
   font-size: 16px;
 }
