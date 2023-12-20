@@ -465,7 +465,11 @@ section {
 .hero .container {
   z-index: 1;
 }
-
+.video-container{
+  position: relative; 
+  width: 80%; 
+  padding-bottom: 56.25%;
+}
 .hero h2 {
   margin-bottom: 40px;
   font-size: 48px;
