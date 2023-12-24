@@ -29,7 +29,9 @@
 </head>
 
 <body class="page-ohwc">
-  
+  <div id="mypreloader">
+    <img src="assets/img/preloader.gif" alt="preloader image" width="120" height="120">
+  </div>
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       
@@ -255,8 +257,8 @@
                 <h4>Our Services</h4>
                 <ul>
                   <li><i class="bi bi-facebook" ></i> <a href="#">Facebook</a></li>
-                  <li><i class="bi bi-telegram" ></i> <a href="#">Telegram</a></li>
-                  <li><i class="bi bi-youtube" ></i><a href="#">YouTube</a></li>
+                  <li><i class="bi bi-telegram" ></i> <a href="https://t.me/+eHWINnKPeBg5MmY0">Telegram</a></li>
+              <li><i class="bi bi-youtube" ></i><a href="https://youtube.com/@barbaraokugbeni2337?si=HycPFEh3mgK6rBdz">YouTube</a></li>
                   <li><i class="bi bi-whatsapp" ></i><a href="#">WhatsApp</a></li>
                 </ul>
               </div>
@@ -275,7 +277,13 @@
       </footer>
       
       <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-      
+      <script>
+        var loader = document.getElementById("mypreloader");
+        window.addEventListener("load", function(){
+          
+          loader.style.display = "none";
+        })
+      </script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <script src="assets/vendor/aos/aos.js"></script>
       <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

@@ -30,6 +30,9 @@
 </head>
 
 <body class="page-donate">
+  <div id="mypreloader">
+    <img src="assets/img/preloader.gif" alt="preloader image" width="120" height="120">
+  </div>
   <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       
@@ -136,7 +139,7 @@
             <div class="col-md-7 pr-5 mb-5">
               <h4>One Heart Wholeness Centre</h4>
               <p>Explore our Patreon tiers tailored for those wanting to contribute regularly to our organization's operational costs. Your consistent support is highly valued. Join us on this journey today.</p>
-              <a href="#about" class="btn-primary-ohwc">Become A Patreon</a>
+              <a href="https://www.patreon.com/OneHeartWholenessCentre" class="btn-primary-ohwc">Become A Patreon</a>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 mx-auto" data-aos="fade-up" data-aos-delay="200">
               
@@ -349,8 +352,8 @@
               <h4>Our Services</h4>
               <ul>
                 <li><i class="bi bi-facebook" ></i> <a href="#">Facebook</a></li>
-                <li><i class="bi bi-telegram" ></i> <a href="#">Telegram</a></li>
-                <li><i class="bi bi-youtube" ></i><a href="#">YouTube</a></li>
+                <li><i class="bi bi-telegram" ></i> <a href="https://t.me/+eHWINnKPeBg5MmY0">Telegram</a></li>
+              <li><i class="bi bi-youtube" ></i><a href="https://youtube.com/@barbaraokugbeni2337?si=HycPFEh3mgK6rBdz">YouTube</a></li>
                 <li><i class="bi bi-whatsapp" ></i><a href="#">WhatsApp</a></li>
               </ul>
             </div>
@@ -369,7 +372,13 @@
     </footer>
     
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-    
+    <script>
+      var loader = document.getElementById("mypreloader");
+      window.addEventListener("load", function(){
+        
+        loader.style.display = "none";
+      })
+    </script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
