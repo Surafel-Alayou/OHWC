@@ -5,7 +5,7 @@
         var message = document.getElementById('message').value;
 
         var botToken = '5395660536:AAERYCKuPCvSqXjb_f9ccKwvnsw0bJdCUA4';
-        var chatId = '@AMSE_lab';
+        var chatId = '@OHWC_web_messages';
 
         var text = "New message from:\nName: " + name + "\nEmail: " + email + "\nSubject: " + subject + "\nMessage: " + message;
 
