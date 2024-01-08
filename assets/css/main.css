@@ -200,7 +200,7 @@ section {
   .navbar {
     padding: 0;
   }
-
+  
   .navbar ul {
     margin: 0;
     padding: 0;
@@ -208,11 +208,11 @@ section {
     list-style: none;
     align-items: center;
   }
-
+  
   .navbar li {
     position: relative;
   }
-
+  
   .navbar a,
   .navbar a:focus {
     display: flex;
@@ -226,21 +226,21 @@ section {
     white-space: nowrap;
     transition: 0.3s;
   }
-
+  
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
   }
-
+  
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
     color: #F4CD18;
   }
-
+  
   .navbar .dropdown ul {
     display: block;
     position: absolute;
@@ -256,40 +256,40 @@ section {
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.2s;
   }
-
+  
   .navbar .dropdown ul li {
     min-width: 200px;
   }
-
+  
   .navbar .dropdown ul a {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
     color: #467E39DB;
   }
-
+  
   .navbar .dropdown ul a i {
     font-size: 12px;
   }
-
+  
   .navbar .dropdown ul a:hover, .navbar .dropdown ul a.active,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
     color: #F4CD18;
   }
-
+  
   .navbar .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
   }
-
+  
   .navbar .dropdown .dropdown ul {
     top: 0;
     left: calc(100% - 30px);
     visibility: hidden;
   }
-
+  
   .navbar .dropdown .dropdown:hover>ul {
     opacity: 1;
     top: 0;
@@ -302,14 +302,14 @@ section {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
-
+  
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
 
 @media (min-width: 1280px) {
-
+  
   .mobile-nav-show,
   .mobile-nav-hide {
     display: none;
@@ -330,7 +330,7 @@ section {
     transition: 0.3s;
     z-index: 9997;
   }
-
+  
   .navbar ul {
     position: absolute;
     inset: 0;
@@ -341,7 +341,7 @@ section {
     transition: 0.3s;
     z-index: 9998;
   }
-
+  
   .navbar a,
   .navbar a:focus {
     display: flex;
@@ -355,21 +355,21 @@ section {
     white-space: nowrap;
     transition: 0.3s;
   }
-
+  
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
   }
-
+  
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
     color: #F4CD18;
   }
-
+  
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
     position: static;
@@ -379,11 +379,11 @@ section {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
   }
-
+  
   .navbar .dropdown ul a {
     color: #467E39DB;
   }
-
+  
   .navbar .dropdown ul a:hover, .navbar .dropdown ul a.active  {
     color: #F4CD18;
   }
@@ -391,7 +391,7 @@ section {
   .navbar .dropdown .dropdown>.dropdown-active {
     display: block;
   }
-
+  
   .mobile-nav-show {
     color: rgba(255, 255, 255, 0.9);
     font-size: 28px;
@@ -399,7 +399,7 @@ section {
     line-height: 0;
     transition: 0.5s;
   }
-
+  
   .mobile-nav-hide {
     color: rgba(255, 255, 255, 0.9);
     font-size: 32px;
@@ -411,15 +411,15 @@ section {
     top: 15px;
     z-index: 9999;
   }
-
+  
   .mobile-nav-active {
     overflow: hidden;
   }
-
+  
   .mobile-nav-active .navbar {
     right: 0;
   }
-
+  
   .mobile-nav-active .navbar:before {
     content: "";
     position: fixed;
@@ -457,8 +457,41 @@ section {
   color: #F4CD18;
   font-family: var(--font-secondary);
 }
-
 .btn-primary-ohwc{
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #5F110D;
+  background: #F4CD18;
+  border: solid 1px #5F110D; 
+}
+
+.btn-patreon{
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #f8f8f8;
+  background: #000000e5;
+  border: solid 1px #000000; 
+}
+.btn-patreon:hover {
+  color: #FFFFFF;
+  background: #d6563f;
+  border: solid 1px #d6563f;
+}
+
+
+.contact-content input.btn-primary-ohwc{
   font-family: var(--font-secondary);
   font-weight: 400;
   font-size: 16px;
@@ -679,6 +712,9 @@ span.visiting-hour{
     padding: 20px 50px 50px 60px;
     margin: auto;
   }
+  .patreon .for-mobile {
+    text-align: center;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -858,8 +894,8 @@ span.visiting-hour{
   color: #4F8443;
 }
 .donate-lists .donate-lists-item .icon img{
-width: 60px;
-padding-bottom: 20px;
+  width: 60px;
+  padding-bottom: 20px;
 }
 
 .contact-home {
@@ -1194,11 +1230,11 @@ padding-bottom: 20px;
   .testimonials .swiper-slide-active {
     opacity: 1;
   }
-
+  
   .testimonials .swiper-pagination {
     margin-top: 0;
   }
-
+  
   .testimonials .testimonial-item {
     margin: 40px 20px;
   }
@@ -1211,8 +1247,8 @@ padding-bottom: 20px;
   }
 }
 .events-pictures{
-   width: 80%;
-   margin: auto;
+  width: 80%;
+  margin: auto;
 }
 .events-pictures img{
   border-radius: 5px;
@@ -1396,23 +1432,11 @@ padding-bottom: 20px;
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #1f98d1;
-  border: 0;
-  padding: 12px 40px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: var(--color-primary);
-}
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
   }
-
+  
   100% {
     transform: rotate(360deg);
   }
@@ -1698,7 +1722,7 @@ padding-bottom: 20px;
   color: #5F110D;
 }
 @media screen and (max-width: 768px) {
-.quick-address-item{
+  .quick-address-item{
     padding: 10px 0px 10px 40px;
   }
 }
@@ -1836,12 +1860,12 @@ padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   .footer-content .footer-info {
-      padding: 0px 40px 0px 40px;
-      margin: auto;
-    }
+    padding: 0px 40px 0px 40px;
+    margin: auto;
   }
+}
 @media screen and (max-width: 768px) {
   .footer-content .footer-links {
-      padding: 0px 0px 0px 30px;
-    }
+    padding: 0px 0px 0px 30px;
   }
+}
