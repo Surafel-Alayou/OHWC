@@ -323,7 +323,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form id="contact-form" action="" method="post">
+          <form id="contact-form">
             <div class="row">
               <h2>Send us message</h2>
               <p style="font-size: 18px; color: #5B5648;">Drop us a message! We're all ears and excited to hear from you. 📬👂</p>
@@ -348,7 +348,7 @@
                 </fieldset>
               </div>
               <div class="col-lg-12">
-                <button type="submit" name="submit" class="btn-primary-ohwc">Send message</button>
+                <button type="button" onclick="sendMessage()" class="btn-primary-ohwc">Send message</button>
               </div>
             </div>
           </form>
@@ -453,6 +453,7 @@
   </footer>
   
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
   <script>
     var loader = document.getElementById("mypreloader");
     window.addEventListener("load", function(){
@@ -460,6 +461,7 @@
       loader.style.display = "none";
     })
   </script>
+
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -467,6 +469,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/message.js"></script>
   
 </body>
 
