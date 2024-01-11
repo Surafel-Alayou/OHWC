@@ -188,7 +188,7 @@ section {
 @media only screen and (max-width: 600px) {
   .header-home{
     height: 75vh;
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
   }
 }
 
@@ -196,7 +196,7 @@ section {
 @media only screen and (min-width: 600px) {
   .header-home{
     height: 85vh;
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
   }
 }
 
@@ -204,7 +204,7 @@ section {
 @media only screen and (min-width: 768px) {
   .header-home{
     height: 90vh;
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
   }
 }
 
@@ -212,7 +212,7 @@ section {
 @media only screen and (min-width: 992px) { 
   .header-home{
   height: 100vh;
-  margin-bottom: 15vh;
+  margin-bottom: 20vh;
 }
 }
 
@@ -220,7 +220,7 @@ section {
 @media only screen and (min-width: 1200px) { 
   .header-home{
   height: 110vh;
-  margin-bottom: 15vh;
+  margin-bottom: 20vh;
 }
 }
 
