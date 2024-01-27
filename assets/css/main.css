@@ -1042,8 +1042,13 @@ span.visiting-hour{
   .contact-content {
     padding: 10px;
   }
+  .contact-content #contact-form {
+    padding: 50px 30px 50px 30px;
+  }
+  .contact-content .contact-home{
+    padding: 50px 40px 50px 40px;
+  }
 }
-
 
 .contact-page {
   margin-top: 30px;
