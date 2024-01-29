@@ -621,7 +621,6 @@ span.visiting-hour{
   font-size: 18px;
   color: #5d4251e1;
   line-height: 2;
-  text-align: justify;
 }
 
 .donations-list .donations-item {
@@ -657,15 +656,17 @@ span.visiting-hour{
   line-height: 24px;
   font-size: 18px;
 }
-
-/*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
+.ohwc-number{
+  background-color: #DDD8D85E;
+  background-size: cover;
+  padding: 80px 0;
+}
+.ohwc-number i{
+  color: #467E39DB;
+}
 .become-member {
   background-color: #DDD8D85E;
   background-size: cover;
-  background-blend-mode: multiply;
-  background-attachment:local;
   padding: 80px 0;
 }
 
@@ -844,7 +845,7 @@ span.visiting-hour{
 }
 
 .donate-cbe .cbe-item .cbe-body {
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 .donate-cbe .cbe-item h4 {
@@ -900,7 +901,6 @@ span.visiting-hour{
 }
 
 .contact-home {
-  margin-top: 30px;
   padding: 80px 0;
 }
 
@@ -1159,9 +1159,9 @@ span.visiting-hour{
   padding: 20px 10px;
 }
 /*--------------------------------------------------------------
-# Testimonials Section
+# gallary-homes Section
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+.gallary-homes .gallary-home-item {
   box-sizing: content-box;
   padding: 10px;
   margin: 20px 30px 40px 30px;
@@ -1174,23 +1174,22 @@ span.visiting-hour{
   border-radius: 10px;
 }
 
-.testimonials .testimonial-item .stars {
+.gallary-homes .gallary-home-item .stars {
   margin-bottom: 15px;
 }
 
-.testimonials .testimonial-item .stars i {
+.gallary-homes .gallary-home-item .stars i {
   color: #ffc107;
   margin: 0 1px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.gallary-homes .gallary-home-item .gallary-home-img {
   width: 90%;
-  border: 4px solid #fff;
   margin: 0 auto;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
-.testimonials .testimonial-item h3 {
+.gallary-homes .gallary-home-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
@@ -1198,56 +1197,56 @@ span.visiting-hour{
   font-family: 'Karla', sans-serif;
 }
 
-.testimonials .testimonial-item h4 {
+.gallary-homes .gallary-home-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
   font-family: 'Karla', sans-serif;
 }
 
-.testimonials .testimonial-item p {
+.gallary-homes .gallary-home-item p {
   margin: 0 auto 15px auto;
   font-family: 'Karla', sans-serif;
   color: #5D4251;
   font-size: 16px;
 }
 
-.testimonials .swiper-pagination {
+.gallary-homes .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.gallary-homes .swiper-pagination .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background-color: #e8eff6;
   opacity: 1;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.gallary-homes .swiper-pagination .swiper-pagination-bullet-active {
   background-color: rgb(94, 94, 94);
 }
 
-.testimonials .swiper-slide {
+.gallary-homes .swiper-slide {
   opacity: 0.3;
 }
 
 @media (max-width: 1199px) {
-  .testimonials .swiper-slide-active {
+  .gallary-homes .swiper-slide-active {
     opacity: 1;
   }
   
-  .testimonials .swiper-pagination {
+  .gallary-homes .swiper-pagination {
     margin-top: 0;
   }
   
-  .testimonials .testimonial-item {
+  .gallary-homes .gallary-home-item {
     margin: 40px 20px;
   }
 }
 
 @media (min-width: 1200px) {
-  .testimonials .swiper-slide-next {
+  .gallary-homes .swiper-slide-next {
     opacity: 1;
     transform: scale(1.12);
   }
@@ -1462,6 +1461,7 @@ span.visiting-hour{
 .blog .posts-list .post-img {
   max-height: 240px;
   overflow: hidden;
+  border-radius: 5px 5px 0 0;
 }
 
 .blog .posts-list .title {
@@ -1679,8 +1679,6 @@ span.visiting-hour{
 }
 .certficate-container .image-stack__item--top {
   width: 100%; 
-  padding-right: 5%;
-  padding-bottom: 5%;
 }
 
 .certficate-container img {
